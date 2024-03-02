@@ -17,7 +17,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 # Load the trained model
-pickle_in = open("BabyCryModel.pkl", "rb")
+pickle_in = open("BabyCry.pkl", "rb")
 model = pickle.load(pickle_in)
 
 st.title("Baby Cry Predictor")
